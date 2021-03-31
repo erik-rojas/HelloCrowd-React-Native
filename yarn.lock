@@ -4866,7 +4866,7 @@ prompts@^2.0.1:
     kleur "^3.0.2"
     sisteransi "^1.0.0"
 
-prop-types@^15.5.10, prop-types@^15.5.8, prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2:
+prop-types@^15.5.10, prop-types@^15.5.8, prop-types@^15.5.9, prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -5027,6 +5027,25 @@ react-native-maps@^0.23.0:
   resolved "https://registry.yarnpkg.com/react-native-maps/-/react-native-maps-0.23.0.tgz#edbfdcad0e42190627eb1c8067eaba5965c8f81e"
   integrity sha512-qxOIQGsDtQXQlSJdXMW1wg8pvLaVYdbiIolB7tZTTgTGgIA/hDxXwZbQZ08c4KDD6/VTk8krfd1APaHkqvh6og==
 
+react-native-material-textfield@^0.12.0:
+  version "0.12.0"
+  resolved "https://registry.yarnpkg.com/react-native-material-textfield/-/react-native-material-textfield-0.12.0.tgz#3fba19d76ab89f67052c81e082152fc243d82a3f"
+  integrity sha1-P7oZ12q4n2cFLIHgghUvwkPYKj8=
+  dependencies:
+    prop-types "^15.5.9"
+
+react-native-material-textinput@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/react-native-material-textinput/-/react-native-material-textinput-1.1.0.tgz#98bd0916cd0693a6c138b0d8ac24265d84a987f2"
+  integrity sha512-z+8WkI1JAW/qqiaktAtNdyPs40di2eYDwL3rheZ6t6qQWEFv2jgIYbr0U8evlYVG3BSsVMZ48XejFNju8/DFwQ==
+  dependencies:
+    prop-types "^15.5.10"
+
+react-native-md-textinput@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/react-native-md-textinput/-/react-native-md-textinput-2.0.4.tgz#9f81cff16ceba0bc595fc58ed1239bd13a4023a8"
+  integrity sha1-n4HP8WzroLxZX8WO0SOb0TpAI6g=
+
 react-native-progress-circle@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/react-native-progress-circle/-/react-native-progress-circle-2.0.1.tgz#6a034bef69a13c3b7f1a33722527046d088c233d"
@@ -5072,6 +5091,11 @@ react-native-tab-view@^1.0.0, react-native-tab-view@^1.2.0:
   integrity sha512-2U+HxDQdjzExoC6gZ+wUhC8v8JjntppsFVU4v4pRvC/1dkN7DJv1k8UEy9+p7ucEaNrcAzu/j5N09Jf4qG36vw==
   dependencies:
     prop-types "^15.6.1"
+
+react-native-textinput-effects@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/react-native-textinput-effects/-/react-native-textinput-effects-0.5.1.tgz#52b54bb56b58a4b67b5d3fa4ffccba3d288cd8c9"
+  integrity sha512-9ywFH1S4WV/IkYcGwFYZrOYx5j84WvbhzWbLO52rN1PxgjI1tfZu8c5Ju8fsA7eLKuXt7YRen4iVTYYahrFq1w==
 
 react-native-vector-icons@6.1.0:
   version "6.1.0"
@@ -6518,9 +6542,9 @@ xtend@~4.0.1:
   integrity sha1-pcbVMr5lbiPbgg77lDofBJmNY68=
 
 y18n@^3.2.0, y18n@^3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/y18n/-/y18n-3.2.1.tgz#6d15fba884c08679c0d77e88e7759e811e07fa41"
-  integrity sha1-bRX7qITAhnnA136I53WegR4H+kE=
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/y18n/-/y18n-3.2.2.tgz#85c901bd6470ce71fc4bb723ad209b70f7f28696"
+  integrity sha512-uGZHXkHnhF0XeeAPgnKfPv1bgKAYyVvmNL1xlKsPYZPaIHxGti2hHqvOCQv71XMsLxu1QjergkqogUnms5D3YQ==
 
 "y18n@^3.2.1 || ^4.0.0":
   version "4.0.0"
